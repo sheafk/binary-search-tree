@@ -17,7 +17,7 @@ func findTheNeedle(haystack: [Int], needle: Int) -> Int {
             
             if needle == haystack[midWay] {
                 
-                return midWay
+                return haystack[midWay]
                 
             } else if needle > haystack[midWay] {
                 
